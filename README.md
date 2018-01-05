@@ -10,7 +10,8 @@ The issue is an NPE when trying to use a `FragmentStatePagerAdapter` with a `chi
 2. Select the middle nav item ("Dashboard")
 3. This is a ViewPager. Swipe across some views, then tap "Go".
 4. The app navigated you to the third tab, using `FragmentTransaction.replace()`
-5. Tap "Dashboard" to return to the view pager. 💥
+5. Tap "Dashboard" to return to the view pager. 
+6. 💥
 
 ## The Crash
 
